@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|PT++Mono);
+
+:root {
+--primary-color: lightblue;   
+--secondary-color: DimGrey;
+--terciary-color: Gainsboro;
+}
+
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: lato, sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 5px 5px 5px var(--secondary-color);
+    border-radius: 15px;
+}
+
+.title {
+    background-color: var(--terciary-color);
+    border-top-left-radius: 15px; border-top-right-radius: 15px;
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+#subcontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formulario {
+    background-color: white;
+    width: 40px;
+    padding: 5px 5px 7px 7px;
+}
+
+.formulario:focus {
+    border: 3px solid rgb(134, 204, 228);
+    outline: none;
+}
+
+.bselect {
+width: 180px;
+padding: 5px;
+font-size: 12px;
+}
+
+.bbutton {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.bbutton:hover {
+    background-color: var(--terciary-color);
+    outline: none;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+    
